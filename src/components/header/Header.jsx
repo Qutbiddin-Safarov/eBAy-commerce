@@ -28,9 +28,9 @@ const Header = () => {
             <div className="nav_div1">
             <nav className="nav_1">
               <p>Hi!</p>
-              <Link to="/login">Sign in</Link>
+              <Link to="auth/login">Sign in</Link>
               <p>or</p>
-              <Link to="/create">register</Link>
+              <Link to="auth/create">register</Link>
             </nav>
             <nav className="nav_2">
               <Link className="unstyle" to="/">Daily deals</Link>
